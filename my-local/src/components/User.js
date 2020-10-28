@@ -1,6 +1,6 @@
 import React from "react";
 import { FaTrash, FaEdit } from "react-icons/fa";
-const User = ({ deleteUser, editUser }) => {
+const User = ({id,fname, lname,  deleteUser, editUser }) => {
   return (
     <>
       <tr key={id}>
